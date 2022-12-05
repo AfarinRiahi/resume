@@ -290,6 +290,7 @@ right: 0;
 }
 .wrapper .column{
   width: 100%;
+  margin-bottom: 24px;
 }
 }
 
