@@ -276,7 +276,7 @@ right: 0;
   display: flex;
 
 }
-@media screen and (min-width:801px){
+@media screen and (max-width:1024px){
   .main {
    
   padding-left: 24px;
@@ -284,18 +284,12 @@ right: 0;
 
   }
 }
-@media screen and (max-width:800px){
-  .column-right{
-    width: 97%;
-  }
-  .column-left{
-    width: 97%;
-  }
-  .main{
-padding-left: 8px;
-padding-right: 8px;
-display: flex;
-
-  }
-
+@media screen and (max-width:600px){
+.wrapper{
+  flex-wrap: wrap;
 }
+.wrapper .column{
+  width: 100%;
+}
+}
+
